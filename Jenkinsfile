@@ -13,5 +13,11 @@ pipeline{
                 echo 'sudo systemctl status Jenkins'
             }
         }
+        stage('3-EngrAnn'){
+            steps{
+                echo 'ps -ef'
+                echo 'sudo systemctl status Jenkins'
+            }
+        }
     }
 }
