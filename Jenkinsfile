@@ -9,7 +9,7 @@ pipeline{
         }
         stage('2-Innocent'){
             steps{
-                echo 'ps -ef'
+                echo 'vim pipeline'
                 echo 'sudo systemctl status Jenkins'
             }
         }
