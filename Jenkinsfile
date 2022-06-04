@@ -7,11 +7,11 @@ pipeline{
                 echo 'sudo systemctl status Jenkins'
             }
         }
-    }
-}
         stage('2-Innocent'){
             steps{
                 echo 'ps -ef'
                 echo 'sudo systemctl status Jenkins'
             }
         }
+    }
+}
